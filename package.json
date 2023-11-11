@@ -3,6 +3,14 @@
   "displayName": "css-var-color-decorator",
   "description": "provide color decorator for css variables",
   "version": "1.0.0",
+  "author": {
+    "name": "meouwu-dev",
+    "url": "https://github.com/meouwu-dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meouwu-dev/css-var-color-decorator"
+  },
   "engines": {
     "vscode": "^1.84.0"
   },
