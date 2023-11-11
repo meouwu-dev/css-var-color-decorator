@@ -1,7 +1,7 @@
+import vscode from 'vscode';
 import { KEY_DECORATORS } from "../../constants";
 import { hslToRgb, rgbToHsl } from "../../lib";
-import { CSSVariable, Line, Preview } from "../types";
-import vscode from 'vscode';
+import { Line, Preview } from "../types";
 
 function isVariableLine(line: Line): boolean {
   return line.text.includes("--");

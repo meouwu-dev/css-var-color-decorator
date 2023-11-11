@@ -1,14 +1,13 @@
 import vscode, { TextDocument } from 'vscode';
-
 import { isPresent } from '../lib';
 import { createColorDecorator, disposeDecoratorStore, lineToPreview, updateDecoratorStore } from './utils';
-export {disposeDecoratorStore, updateDecoratorStore};
+export { disposeDecoratorStore, updateDecoratorStore };
 
 const supportLanguageType = ["css", "scss", "tailwindcss"];
 
 export function listener(context: vscode.ExtensionContext) {
   return (document: TextDocument) => {
-    const {languageId} = document;
+    const { languageId } = document;
     const isListening = supportLanguageType.includes(languageId);
     if (!isListening) {
       return;
