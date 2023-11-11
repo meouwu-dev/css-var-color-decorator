@@ -2,9 +2,9 @@
 
 ## **View and edit css variables with color decorators (HSL and HSLA only)**
 
-Showcase:
+## Usages
 
-![showcase](https://)
+![Usages](https://raw.githubusercontent.com/meouwu-dev/css-var-color-decorator/master/assets/feature-1.gif)
 
 ## Features
 
