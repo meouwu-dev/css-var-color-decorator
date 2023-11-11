@@ -7,6 +7,7 @@
     "name": "meouwu-dev",
     "url": "https://github.com/meouwu-dev"
   },
+  "publisher": "meouwu",
   "repository": {
     "type": "git",
     "url": "https://github.com/meouwu-dev/css-var-color-decorator"
