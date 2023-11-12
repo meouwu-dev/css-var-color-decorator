@@ -5,10 +5,20 @@
 ## Usages
 
 ### `add color decorator to css variable`
-![color decorator](https://raw.githubusercontent.com/meouwu-dev/css-var-color-decorator/master/assets/feature-color-decorator.gif)
+<!-- ![color decorator](https://raw.githubusercontent.com/meouwu-dev/css-var-color-decorator/master/assets/feature-color-decorator.gif) -->
+<img 
+  alt="color decorator"
+  src="https://raw.githubusercontent.com/meouwu-dev/css-var-color-decorator/master/assets/feature-color-decorator.gif"
+  width="640"
+ />
 
 ### `convert hex to hs`
-![hex2Hsl](https://raw.githubusercontent.com/meouwu-dev/css-var-color-decorator/master/assets/feature-hex2hsl.gif)
+<!-- ![hex2Hsl](https://raw.githubusercontent.com/meouwu-dev/css-var-color-decorator/master/assets/feature-hex2hsl.gif) -->
+<img
+  alt="hex2Hsl"
+  src="https://raw.githubusercontent.com/meouwu-dev/css-var-color-decorator/master/assets/feature-hex2hsl.gif"
+  width="640"
+/>
 
 
 ## Features
