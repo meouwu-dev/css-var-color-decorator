@@ -5,7 +5,7 @@
 ## Usages
 
 ### `add color decorator to css variable`
-![color decorator](https://raw.githubusercontent.com/meouwu-dev/css-var-color-decorator/master/assets/feature-1.gif)
+![color decorator](https://raw.githubusercontent.com/meouwu-dev/css-var-color-decorator/master/assets/feature-color-decorator.gif)
 
 ### `convert hex to hs`
 ![hex2Hsl](https://raw.githubusercontent.com/meouwu-dev/css-var-color-decorator/master/assets/feature-hex2hsl.gif)
