@@ -32,6 +32,18 @@ export function lineToPreview(line: Line): Preview | undefined {
 export function createColorDecorator(preview: Preview, language: string): vscode.Disposable | undefined {
 
   const value = preview.variable.value;
+
+  // distinguish between hex and hsl using percentage sign
+  const valueSplit = value.split(" ");
+  if (valueSplit.length >= 3) {
+    const [h, s, l] = valueSplit;
+    const isValidHsl = s.endsWith("%") && l.endsWith("%");
+    if (!isValidHsl) {
+      return undefined;
+    }
+  }
+
+
   const rgbFromHsl = hslToRgb(value);
   if (!rgbFromHsl) {
     return undefined;
