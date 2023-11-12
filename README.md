@@ -43,6 +43,12 @@ TODO
 
 Initial release
 
+added color decorator to css variables
+
+### 1.1.0
+
+added command `color.hex2Hsl`
+
 ---
 
 **Enjoy!**
