@@ -11,7 +11,12 @@ export function lineToPreview(line: Line): Preview | undefined {
   if (!isVariableLine(line)) {
     return undefined;
   }
-  const [name, rawValue] = line.text.split(":");
+  
+  const lineSplit = line.text.split(":");
+  if (lineSplit.length !== 2) {
+    return undefined;
+  }
+  const [name, rawValue] = lineSplit;
   const value = rawValue.replace(";", "").trim();
   const valuePositionIndex = line.text.indexOf(value);
   return {
