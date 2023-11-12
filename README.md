@@ -4,7 +4,12 @@
 
 ## Usages
 
-![Usages](https://raw.githubusercontent.com/meouwu-dev/css-var-color-decorator/master/assets/feature-1.gif)
+### `add color decorator to css variable`
+![color decorator](https://raw.githubusercontent.com/meouwu-dev/css-var-color-decorator/master/assets/feature-1.gif)
+
+### `convert hex to hs`
+![hex2Hsl](https://raw.githubusercontent.com/meouwu-dev/css-var-color-decorator/master/assets/feature-hex2hsl.gif)
+
 
 ## Features
 
@@ -13,7 +18,9 @@ we must exclude the color space function or opacity modifiers won't work
 [(ref)](https://tailwindcss.com/docs/customizing-colors#using-css-variables). 
 However, this makes it difficult to see what color a variable is set to. 
 
-This extension adds color decorators to those variables, so you can see and edit them easily.
+- This extension adds color decorators to those variables, so you can see and edit them easily.
+
+- Convert hex to hsl with command `color.hex2Hsl`
 
 ## Limitations
 
