@@ -12,7 +12,7 @@
   width="640"
  />
 
-### `convert hex to hs`
+### `convert hex to hsl`
 <!-- ![hex2Hsl](https://raw.githubusercontent.com/meouwu-dev/css-var-color-decorator/master/assets/feature-hex2hsl.gif) -->
 <img
   alt="hex2Hsl"
