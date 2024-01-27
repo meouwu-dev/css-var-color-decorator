@@ -4,6 +4,7 @@ import * as vscode from 'vscode';
 import { listener, disposeDecoratorStore, updateDecoratorStore } from './listener';
 import { hexToHsl } from './lib';
 import { toHslCommand } from './command';
+import { onConfigurationChange } from './config';
 
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
@@ -16,6 +17,10 @@ export function activate(context: vscode.ExtensionContext) {
 	if (activeEditor) {
 		contextListener(activeEditor.document);
 	}
+
+	vscode.workspace.onDidChangeConfiguration((event) => {
+		onConfigurationChange(event);
+	}, null, context.subscriptions);
 
 	vscode.workspace.onDidChangeTextDocument(event => {
 		contextListener(event.document);

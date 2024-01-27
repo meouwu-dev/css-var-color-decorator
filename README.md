@@ -32,6 +32,19 @@ However, this makes it difficult to see what color a variable is set to.
 
 - Convert hex to hsl with command `color.hex2Hsl`
 
+# Settings
+
+### `cssVarColorDecorator.supportedLanguages`
+
+Use this setting to add support for other languages. Default value is `["css", "scss", "tailwindcss"]`
+
+Example: 
+
+#### add support for html
+```json
+"cssVarColorDecorator.supportedLanguages": ["css", "scss", "tailwindcss", "html"]
+```
+
 ## Limitations
 
 - only works with HSL and HSLA (need to figure out how to find the format of the variable, and covert it back after picking a color in the decorator)

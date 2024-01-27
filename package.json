@@ -28,7 +28,21 @@
         "command": "color.hex2Hsl",
         "title": "color.hex2Hsl"
       }
-    ]
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "CSS Var Color Decorator",
+      "properties": {
+        "cssVarColorDecorator.supportedLanguages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": ["css", "scss", "tailwindcss"],
+          "description": ""
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
