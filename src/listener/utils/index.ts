@@ -34,7 +34,7 @@ export function createColorDecorator(preview: Preview, language: string): vscode
   const value = preview.variable.value;
 
   // distinguish between hex and hsl using percentage sign
-  const valueSplit = value.split(" ");
+  const valueSplit = value.replace(/,/g, "").split(" ");
   if (valueSplit.length >= 3) {
     const [h, s, l] = valueSplit;
     const isValidHsl = s.endsWith("%") && l.endsWith("%");
