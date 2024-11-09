@@ -72,6 +72,17 @@ added color decorator to css variables
 
 added command `color.hex2Hsl`
 
+### 1.2.0
+
+added configuration `cssVarColorDecorator.supportedLanguages`
+
+### 1.3.0
+
+added color previews for colors written with commas
+(
+[#4](https://github.com/meouwu-dev/css-var-color-decorator/pull/4) 
+by [SergeyBazhanov](https://github.com/SergeyBazhanov))
+
 ---
 
 **Enjoy!**
