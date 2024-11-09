@@ -2,7 +2,7 @@ import vscode from 'vscode';
 import tinycolor from 'tinycolor2';
 
 export function hslToRgb(colorStr: string): vscode.Color | undefined {
-  const hsl = colorStr.split(" ").map(it => it.trim());
+  const hsl = colorStr.replace(/,/g, "").split(" ").map(it => it.trim());
   const hslLen = hsl.length;
   if ((hslLen !== 3) && (hslLen !== 4)) {
     return undefined;
